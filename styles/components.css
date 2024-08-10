@@ -10,6 +10,11 @@
   /* for firefox */
   scrollbar-width: thin;
   scrollbar-color: var(--ui-kit-color-typography-quaternary) transparent;
+
+  &__lengthInput {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .scrollContainer::-webkit-scrollbar {
